@@ -12,7 +12,7 @@ public class SpringJpaPostgreSqlApplication implements CommandLineRunner{
 
 	@Autowired
 	CustomerRepository repository;
-	
+	/*Main Method - Removed*/
 	public static void main(String[] args){
 		SpringApplication.run(SpringJpaPostgreSqlApplication.class, args);
 	}
