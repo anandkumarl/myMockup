@@ -12,7 +12,11 @@ public class SpringJpaPostgreSqlApplication implements CommandLineRunner{
 
 	@Autowired
 	CustomerRepository repository;
+<<<<<<< HEAD
 	/*Main Method - Removed*/
+=======
+	/*Main Method - First commit*/
+>>>>>>> bcaeb87cfb01f032803d9bc69ac5313c2452473e
 	public static void main(String[] args){
 		SpringApplication.run(SpringJpaPostgreSqlApplication.class, args);
 	}
